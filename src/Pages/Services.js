@@ -16,7 +16,7 @@ export default function Services() {
 
   return (
     <>
-      <div className=" grid grid-cols-1 sm:grid-cols-2">
+      <div id="services" className=" ">
         <div>
           <ol className="p-5 list-disc mx-auto   marker:decoration-red-900">
             <PercentageBar percentage={100} bgcolor="green" data={"HTML"} />{" "}
@@ -29,19 +29,6 @@ export default function Services() {
             />{" "}
             <PercentageBar percentage={100} bgcolor="yellow" data={"C++"} />
           </ol>
-        </div>
-        <div
-          className="text-white justify-center rounded-lg
-         font-bold p-10 m-5 text-center"
-        >
-          <h1 className="text-yellow-900 font-extrabold text-4xl ">SERVICES</h1>
-          <p
-            className=" p-4 m-7 text-center bg-white text-black
-          "
-          >
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deleniti,
-            sed!
-          </p>
         </div>
       </div>
     </>
